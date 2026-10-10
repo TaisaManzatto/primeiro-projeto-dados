@@ -1,0 +1,1 @@
+const DADOS_HAMBURGUERIA = [];

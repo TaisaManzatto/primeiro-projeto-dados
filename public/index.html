@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dashboard interativo de análise de vendas para Fundamentos de IA e Análise de Dados.">
+  <title>Visão de vendas | Hamburgueria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Fundamentos de IA e Análise de Dados</p>
+        <h1><span class="burger-mark" aria-hidden="true">🍔</span> Visão de vendas</h1>
+        <p class="subtitle">Explore faturamento, produtos e o efeito dos filtros sobre os resultados.</p>
+      </div>
+      <div class="source-badge" id="sourceBadge" aria-live="polite">
+        <span class="status-dot"></span>
+        <span id="sourceLabel">Dados demonstrativos</span>
+      </div>
+    </header>
+
+    <section class="notice" aria-label="Origem dos dados">
+      <span class="notice-icon" aria-hidden="true">i</span>
+      <div><strong id="noticeTitle">Base fictícia para demonstração</strong><span id="noticeText">Os dados iniciais são demonstrativos e podem ser substituídos por um CSV local.</span></div>
+    </section>
+
+    <section class="panel filters-panel" aria-labelledby="filters-title">
+      <div class="section-heading compact-heading">
+        <div><p class="eyebrow">Explore os dados</p><h2 id="filters-title">Filtros</h2></div>
+        <span id="validationSummary" class="validation-summary"></span>
+      </div>
+      <div class="filters-grid">
+        <div class="field"><label for="startDate">Data inicial</label><input id="startDate" type="date"></div>
+        <div class="field"><label for="endDate">Data final</label><input id="endDate" type="date"></div>
+        <div class="field"><label for="categoryFilter">Categoria</label><select id="categoryFilter"><option value="">Todas as categorias</option></select></div>
+        <div class="filter-actions">
+          <button class="button secondary" id="clearFilters" type="button">Limpar filtros</button>
+          <label class="button primary file-button" for="csvFile">Importar CSV</label>
+          <input id="csvFile" type="file" accept=".csv,text/csv">
+        </div>
+      </div>
+      <p class="helper-text">A leitura do CSV acontece localmente no navegador. Nenhum arquivo é enviado.</p>
+    </section>
+
+    <section class="metrics-grid" aria-label="Indicadores principais">
+      <article class="metric-card accent-blue"><div class="metric-icon">R$</div><div><p>Faturamento total</p><strong id="totalRevenue">R$ 0,00</strong><span>nas vendas filtradas</span></div></article>
+      <article class="metric-card accent-green"><div class="metric-icon">#</div><div><p>Quantidade de vendas</p><strong id="salesCount">0</strong><span>IDs únicos</span></div></article>
+      <article class="metric-card accent-purple"><div class="metric-icon">∑</div><div><p>Unidades vendidas</p><strong id="unitsSold">0</strong><span>itens no período</span></div></article>
+      <article class="metric-card accent-orange"><div class="metric-icon">↗</div><div><p>Ticket médio</p><strong id="averageTicket">R$ 0,00</strong><span>faturamento por venda</span></div></article>
+    </section>
+
+    <div class="results-line"><span id="recordCount">200 registros exibidos</span><span class="legend-note">Faturamento = quantidade × preço unitário</span></div>
+
+    <section class="charts-grid" aria-label="Gráficos">
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">Evolução</p><h2>Faturamento por data</h2></div><span class="chart-unit">Em reais (R$)</span></div><div class="chart-wrap"><canvas id="dateRevenueChart" aria-label="Gráfico de linhas do faturamento por data"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">Produtos</p><h2>Faturamento por produto</h2></div><span class="chart-unit">Em reais (R$)</span></div><div class="chart-wrap"><canvas id="productRevenueChart" aria-label="Gráfico de barras do faturamento por produto"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">Atendimento</p><h2>Canal por avaliação</h2></div><span class="chart-unit">Média de 0 a 5</span></div><div class="chart-wrap"><canvas id="channelRatingChart" aria-label="Gráfico de barras da avaliação média por canal"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">Experiência</p><h2>Tempo de espera por avaliação</h2></div><span class="chart-unit">Minutos × nota</span></div><div class="chart-wrap"><canvas id="waitRatingChart" aria-label="Gráfico de dispersão do tempo de espera por avaliação"></canvas></div></article>
+    </section>
+
+    <section class="panel table-panel" aria-labelledby="table-title">
+      <div class="table-header"><div><p class="eyebrow">Detalhamento</p><h2 id="table-title">Vendas filtradas</h2></div><button class="button secondary" id="exportCsv" type="button">Exportar CSV</button></div>
+      <div class="table-tools"><label class="search-field" for="tableSearch"><span aria-hidden="true">⌕</span><input id="tableSearch" type="search" placeholder="Pesquisar na tabela..." autocomplete="off"></label><span id="tableInfo" class="table-info"></span></div>
+      <div class="table-scroll"><table><thead><tr><th><button class="sort-button" data-sort="id_venda" type="button">ID <span>↕</span></button></th><th><button class="sort-button" data-sort="data" type="button">Data <span>↕</span></button></th><th><button class="sort-button" data-sort="produto" type="button">Produto <span>↕</span></button></th><th><button class="sort-button" data-sort="categoria" type="button">Categoria <span>↕</span></button></th><th><button class="sort-button" data-sort="quantidade" type="button">Qtd. <span>↕</span></button></th><th><button class="sort-button" data-sort="preco_unitario" type="button">Preço unitário <span>↕</span></button></th><th><button class="sort-button" data-sort="faturamento" type="button">Faturamento <span>↕</span></button></th></tr></thead><tbody id="salesTableBody"></tbody></table></div>
+      <div class="empty-state" id="emptyState" hidden><div class="empty-icon">⌁</div><h3>Nenhum registro encontrado</h3><p>Tente remover um filtro ou alterar o termo de pesquisa.</p></div>
+    </section>
+
+    <footer><span>Dashboard acadêmico • dados para exploração</span><span id="footerDataInfo">Base demonstrativa incorporada</span></footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.3/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="hamburgueria-dados.js"></script>
+  <script src="hamburgueria-dados-01.js"></script>
+  <script src="hamburgueria-dados-02.js"></script>
+  <script src="hamburgueria-dados-03.js"></script>
+  <script src="hamburgueria-dados-04.js"></script>
+  <script src="hamburgueria-dados-05.js"></script>
+  <script src="hamburgueria-dados-06.js"></script>
+  <script src="hamburgueria-dados-07.js"></script>
+  <script src="hamburgueria-dados-08.js"></script>
+  <script src="hamburgueria-dados-09.js"></script>
+  <script src="hamburgueria-dados-10.js"></script>
+  <script src="hamburgueria-dados-11.js"></script>
+  <script src="hamburgueria-dados-12.js"></script>
+  <script src="hamburgueria-dados-13.js"></script>
+  <script src="hamburgueria-dados-14.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

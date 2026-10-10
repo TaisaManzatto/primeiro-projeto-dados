@@ -1,0 +1,201 @@
+id_venda,data,produto,categoria,regiao,quantidade,preco_unitario
+1,2025-01-08,Milkshake,Sobremesa,Oeste,2,17.40
+2,2025-02-15,Onion rings,Acompanhamento,Leste,3,17.90
+3,2025-03-22,X-Salada,Lanche,Sul,4,27.90
+4,2025-04-03,Suco natural,Bebida,Norte,1,10.40
+5,2025-05-10,Batata frita,Acompanhamento,Oeste,2,15.90
+6,2025-06-17,X-Bacon,Lanche,Leste,3,29.90
+7,2025-07-24,Refrigerante,Bebida,Sul,4,7.40
+8,2025-08-05,X-Frango,Lanche,Norte,1,27.50
+9,2025-09-12,Milkshake,Sobremesa,Oeste,2,16.90
+10,2025-10-19,Onion rings,Acompanhamento,Leste,3,17.40
+11,2025-11-26,X-Salada,Lanche,Sul,4,28.90
+12,2025-12-07,Suco natural,Bebida,Norte,1,9.90
+13,2025-01-14,Batata frita,Acompanhamento,Oeste,2,15.40
+14,2025-02-21,X-Bacon,Lanche,Leste,3,30.90
+15,2025-03-02,Refrigerante,Bebida,Sul,4,6.90
+16,2025-04-09,X-Frango,Lanche,Norte,1,27.00
+17,2025-05-16,Milkshake,Sobremesa,Oeste,2,17.90
+18,2025-06-23,Onion rings,Acompanhamento,Leste,3,16.90
+19,2025-07-04,X-Salada,Lanche,Sul,4,28.40
+20,2025-08-11,Suco natural,Bebida,Norte,1,10.90
+21,2025-09-18,Batata frita,Acompanhamento,Oeste,2,14.90
+22,2025-10-25,X-Bacon,Lanche,Leste,3,30.40
+23,2025-11-06,Refrigerante,Bebida,Sul,4,7.90
+24,2025-12-13,X-Frango,Lanche,Norte,1,26.50
+25,2025-01-20,Milkshake,Sobremesa,Oeste,2,17.40
+26,2025-02-01,Onion rings,Acompanhamento,Leste,3,17.90
+27,2025-03-08,X-Salada,Lanche,Sul,4,27.90
+28,2025-04-15,Suco natural,Bebida,Norte,1,10.40
+29,2025-05-22,Batata frita,Acompanhamento,Oeste,2,15.90
+30,2025-06-03,X-Bacon,Lanche,Leste,3,29.90
+31,2025-07-10,Refrigerante,Bebida,Sul,4,7.40
+32,2025-08-17,X-Frango,Lanche,Norte,1,27.50
+33,2025-09-24,Milkshake,Sobremesa,Oeste,2,16.90
+34,2025-10-05,Onion rings,Acompanhamento,Leste,3,17.40
+35,2025-11-12,X-Salada,Lanche,Sul,4,28.90
+36,2025-12-19,Suco natural,Bebida,Norte,1,9.90
+37,2025-01-26,Batata frita,Acompanhamento,Oeste,2,15.40
+38,2025-02-07,X-Bacon,Lanche,Leste,3,30.90
+39,2025-03-14,Refrigerante,Bebida,Sul,4,6.90
+40,2025-04-21,X-Frango,Lanche,Norte,1,27.00
+41,2025-05-02,Milkshake,Sobremesa,Oeste,2,17.90
+42,2025-06-09,Onion rings,Acompanhamento,Leste,3,16.90
+43,2025-07-16,X-Salada,Lanche,Sul,4,28.40
+44,2025-08-23,Suco natural,Bebida,Norte,1,10.90
+45,2025-09-04,Batata frita,Acompanhamento,Oeste,2,14.90
+46,2025-10-11,X-Bacon,Lanche,Leste,3,30.40
+47,2025-11-18,Refrigerante,Bebida,Sul,4,7.90
+48,2025-12-25,X-Frango,Lanche,Norte,1,26.50
+49,2025-01-06,Milkshake,Sobremesa,Oeste,2,17.40
+50,2025-02-13,Onion rings,Acompanhamento,Leste,3,17.90
+51,2025-03-20,X-Salada,Lanche,Sul,4,27.90
+52,2025-04-01,Suco natural,Bebida,Norte,1,10.40
+53,2025-05-08,Batata frita,Acompanhamento,Oeste,2,15.90
+54,2025-06-15,X-Bacon,Lanche,Leste,3,29.90
+55,2025-07-22,Refrigerante,Bebida,Sul,4,7.40
+56,2025-08-03,X-Frango,Lanche,Norte,1,27.50
+57,2025-09-10,Milkshake,Sobremesa,Oeste,2,16.90
+58,2025-10-17,Onion rings,Acompanhamento,Leste,3,17.40
+59,2025-11-24,X-Salada,Lanche,Sul,4,28.90
+60,2025-12-05,Suco natural,Bebida,Norte,1,9.90
+61,2025-01-12,Batata frita,Acompanhamento,Oeste,2,15.40
+62,2025-02-19,X-Bacon,Lanche,Leste,3,30.90
+63,2025-03-26,Refrigerante,Bebida,Sul,4,6.90
+64,2025-04-07,X-Frango,Lanche,Norte,1,27.00
+65,2025-05-14,Milkshake,Sobremesa,Oeste,2,17.90
+66,2025-06-21,Onion rings,Acompanhamento,Leste,3,16.90
+67,2025-07-02,X-Salada,Lanche,Sul,4,28.40
+68,2025-08-09,Suco natural,Bebida,Norte,1,10.90
+69,2025-09-16,Batata frita,Acompanhamento,Oeste,2,14.90
+70,2025-10-23,X-Bacon,Lanche,Leste,3,30.40
+71,2025-11-04,Refrigerante,Bebida,Sul,4,7.90
+72,2025-12-11,X-Frango,Lanche,Norte,1,26.50
+73,2025-01-18,Milkshake,Sobremesa,Oeste,2,17.40
+74,2025-02-25,Onion rings,Acompanhamento,Leste,3,17.90
+75,2025-03-06,X-Salada,Lanche,Sul,4,27.90
+76,2025-04-13,Suco natural,Bebida,Norte,1,10.40
+77,2025-05-20,Batata frita,Acompanhamento,Oeste,2,15.90
+78,2025-06-01,X-Bacon,Lanche,Leste,3,29.90
+79,2025-07-08,Refrigerante,Bebida,Sul,4,7.40
+80,2025-08-15,X-Frango,Lanche,Norte,1,27.50
+81,2025-09-22,Milkshake,Sobremesa,Oeste,2,16.90
+82,2025-10-03,Onion rings,Acompanhamento,Leste,3,17.40
+83,2025-11-10,X-Salada,Lanche,Sul,4,28.90
+84,2025-12-17,Suco natural,Bebida,Norte,1,9.90
+85,2025-01-24,Batata frita,Acompanhamento,Oeste,2,15.40
+86,2025-02-05,X-Bacon,Lanche,Leste,3,30.90
+87,2025-03-12,Refrigerante,Bebida,Sul,4,6.90
+88,2025-04-19,X-Frango,Lanche,Norte,1,27.00
+89,2025-05-26,Milkshake,Sobremesa,Oeste,2,17.90
+90,2025-06-07,Onion rings,Acompanhamento,Leste,3,16.90
+91,2025-07-14,X-Salada,Lanche,Sul,4,28.40
+92,2025-08-21,Suco natural,Bebida,Norte,1,10.90
+93,2025-09-02,Batata frita,Acompanhamento,Oeste,2,14.90
+94,2025-10-09,X-Bacon,Lanche,Leste,3,30.40
+95,2025-11-16,Refrigerante,Bebida,Sul,4,7.90
+96,2025-12-23,X-Frango,Lanche,Norte,1,26.50
+97,2025-01-04,Milkshake,Sobremesa,Oeste,2,17.40
+98,2025-02-11,Onion rings,Acompanhamento,Leste,3,17.90
+99,2025-03-18,X-Salada,Lanche,Sul,4,27.90
+100,2025-04-25,Suco natural,Bebida,Norte,1,10.40
+101,2025-05-06,Batata frita,Acompanhamento,Oeste,2,15.90
+102,2025-06-13,X-Bacon,Lanche,Leste,3,29.90
+103,2025-07-20,Refrigerante,Bebida,Sul,4,7.40
+104,2025-08-01,X-Frango,Lanche,Norte,1,27.50
+105,2025-09-08,Milkshake,Sobremesa,Oeste,2,16.90
+106,2025-10-15,Onion rings,Acompanhamento,Leste,3,17.40
+107,2025-11-22,X-Salada,Lanche,Sul,4,28.90
+108,2025-12-03,Suco natural,Bebida,Norte,1,9.90
+109,2025-01-10,Batata frita,Acompanhamento,Oeste,2,15.40
+110,2025-02-17,X-Bacon,Lanche,Leste,3,30.90
+111,2025-03-24,Refrigerante,Bebida,Sul,4,6.90
+112,2025-04-05,X-Frango,Lanche,Norte,1,27.00
+113,2025-05-12,Milkshake,Sobremesa,Oeste,2,17.90
+114,2025-06-19,Onion rings,Acompanhamento,Leste,3,16.90
+115,2025-07-26,X-Salada,Lanche,Sul,4,28.40
+116,2025-08-07,Suco natural,Bebida,Norte,1,10.90
+117,2025-09-14,Batata frita,Acompanhamento,Oeste,2,14.90
+118,2025-10-21,X-Bacon,Lanche,Leste,3,30.40
+119,2025-11-02,Refrigerante,Bebida,Sul,4,7.90
+120,2025-12-09,X-Frango,Lanche,Norte,1,26.50
+121,2025-01-16,Milkshake,Sobremesa,Oeste,2,17.40
+122,2025-02-23,Onion rings,Acompanhamento,Leste,3,17.90
+123,2025-03-04,X-Salada,Lanche,Sul,4,27.90
+124,2025-04-11,Suco natural,Bebida,Norte,1,10.40
+125,2025-05-18,Batata frita,Acompanhamento,Oeste,2,15.90
+126,2025-06-25,X-Bacon,Lanche,Leste,3,29.90
+127,2025-07-06,Refrigerante,Bebida,Sul,4,7.40
+128,2025-08-13,X-Frango,Lanche,Norte,1,27.50
+129,2025-09-20,Milkshake,Sobremesa,Oeste,2,16.90
+130,2025-10-01,Onion rings,Acompanhamento,Leste,3,17.40
+131,2025-11-08,X-Salada,Lanche,Sul,4,28.90
+132,2025-12-15,Suco natural,Bebida,Norte,1,9.90
+133,2025-01-22,Batata frita,Acompanhamento,Oeste,2,15.40
+134,2025-02-03,X-Bacon,Lanche,Leste,3,30.90
+135,2025-03-10,Refrigerante,Bebida,Sul,4,6.90
+136,2025-04-17,X-Frango,Lanche,Norte,1,27.00
+137,2025-05-24,Milkshake,Sobremesa,Oeste,2,17.90
+138,2025-06-05,Onion rings,Acompanhamento,Leste,3,16.90
+139,2025-07-12,X-Salada,Lanche,Sul,4,28.40
+140,2025-08-19,Suco natural,Bebida,Norte,1,10.90
+141,2025-09-26,Batata frita,Acompanhamento,Oeste,2,14.90
+142,2025-10-07,X-Bacon,Lanche,Leste,3,30.40
+143,2025-11-14,Refrigerante,Bebida,Sul,4,7.90
+144,2025-12-21,X-Frango,Lanche,Norte,1,26.50
+145,2025-01-02,Milkshake,Sobremesa,Oeste,2,17.40
+146,2025-02-09,Onion rings,Acompanhamento,Leste,3,17.90
+147,2025-03-16,X-Salada,Lanche,Sul,4,27.90
+148,2025-04-23,Suco natural,Bebida,Norte,1,10.40
+149,2025-05-04,Batata frita,Acompanhamento,Oeste,2,15.90
+150,2025-06-11,X-Bacon,Lanche,Leste,3,29.90
+151,2025-07-18,Refrigerante,Bebida,Sul,4,7.40
+152,2025-08-25,X-Frango,Lanche,Norte,1,27.50
+153,2025-09-06,Milkshake,Sobremesa,Oeste,2,16.90
+154,2025-10-13,Onion rings,Acompanhamento,Leste,3,17.40
+155,2025-11-20,X-Salada,Lanche,Sul,4,28.90
+156,2025-12-01,Suco natural,Bebida,Norte,1,9.90
+157,2025-01-08,Batata frita,Acompanhamento,Oeste,2,15.40
+158,2025-02-15,X-Bacon,Lanche,Leste,3,30.90
+159,2025-03-22,Refrigerante,Bebida,Sul,4,6.90
+160,2025-04-03,X-Frango,Lanche,Norte,1,27.00
+161,2025-05-10,Milkshake,Sobremesa,Oeste,2,17.90
+162,2025-06-17,Onion rings,Acompanhamento,Leste,3,16.90
+163,2025-07-24,X-Salada,Lanche,Sul,4,28.40
+164,2025-08-05,Suco natural,Bebida,Norte,1,10.90
+165,2025-09-12,Batata frita,Acompanhamento,Oeste,2,14.90
+166,2025-10-19,X-Bacon,Lanche,Leste,3,30.40
+167,2025-11-26,Refrigerante,Bebida,Sul,4,7.90
+168,2025-12-07,X-Frango,Lanche,Norte,1,26.50
+169,2025-01-14,Milkshake,Sobremesa,Oeste,2,17.40
+170,2025-02-21,Onion rings,Acompanhamento,Leste,3,17.90
+171,2025-03-02,X-Salada,Lanche,Sul,4,27.90
+172,2025-04-09,Suco natural,Bebida,Norte,1,10.40
+173,2025-05-16,Batata frita,Acompanhamento,Oeste,2,15.90
+174,2025-06-23,X-Bacon,Lanche,Leste,3,29.90
+175,2025-07-04,Refrigerante,Bebida,Sul,4,7.40
+176,2025-08-11,X-Frango,Lanche,Norte,1,27.50
+177,2025-09-18,Milkshake,Sobremesa,Oeste,2,16.90
+178,2025-10-25,Onion rings,Acompanhamento,Leste,3,17.40
+179,2025-11-06,X-Salada,Lanche,Sul,4,28.90
+180,2025-12-13,Suco natural,Bebida,Norte,1,9.90
+181,2025-01-20,Batata frita,Acompanhamento,Oeste,2,15.40
+182,2025-02-01,X-Bacon,Lanche,Leste,3,30.90
+183,2025-03-08,Refrigerante,Bebida,Sul,4,6.90
+184,2025-04-15,X-Frango,Lanche,Norte,1,27.00
+185,2025-05-22,Milkshake,Sobremesa,Oeste,2,17.90
+186,2025-06-03,Onion rings,Acompanhamento,Leste,3,16.90
+187,2025-07-10,X-Salada,Lanche,Sul,4,28.40
+188,2025-08-17,Suco natural,Bebida,Norte,1,10.90
+189,2025-09-24,Batata frita,Acompanhamento,Oeste,2,14.90
+190,2025-10-05,X-Bacon,Lanche,Leste,3,30.40
+191,2025-11-12,Refrigerante,Bebida,Sul,4,7.90
+192,2025-12-19,X-Frango,Lanche,Norte,1,26.50
+193,2025-01-26,Milkshake,Sobremesa,Oeste,2,17.40
+194,2025-02-07,Onion rings,Acompanhamento,Leste,3,17.90
+195,2025-03-14,X-Salada,Lanche,Sul,4,27.90
+196,2025-04-21,Suco natural,Bebida,Norte,1,10.40
+197,2025-05-02,Batata frita,Acompanhamento,Oeste,2,15.90
+198,2025-06-09,X-Bacon,Lanche,Leste,3,29.90
+199,2025-07-16,Refrigerante,Bebida,Sul,4,7.40
+200,2025-08-23,X-Frango,Lanche,Norte,1,27.50
